@@ -1,0 +1,9 @@
+streamlit 
+tinydb 
+bcrypt 
+gspread 
+oauth2client 
+qrcode 
+opencv-python-headless 
+numpy 
+pillow

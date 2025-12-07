@@ -2,3 +2,5 @@ ignore_dir
 requirements_and_price.txt
 send2customer
 db
+service_account.json
+__pycache__/
