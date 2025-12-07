@@ -1,1 +1,2 @@
-Customer project from fastwork.co
+Customer project from fastwork.co <br>
+Mockup data: https://kku.world/lakiwc
