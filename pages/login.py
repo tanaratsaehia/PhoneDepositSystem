@@ -43,7 +43,7 @@ if login_button:
             st.success(f"เข้าสู่ระบบสำเร็จ! ยินดีต้อนรับ, {user_data['full_name']}!")
             
             # --- Check Google Sheet Date Column ---
-            with st.spinner("กำลังตรวจสอบข้อมูลรายวัน..."):
+            with st.spinner("กำลังตรวจสอบข้อมูล..."):
                 try:
                     check_and_update_date_column()
                 except Exception as e:

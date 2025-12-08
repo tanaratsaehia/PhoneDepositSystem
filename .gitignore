@@ -4,3 +4,4 @@ send2customer
 db
 service_account.json
 __pycache__/
+.env
