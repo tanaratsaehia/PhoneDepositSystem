@@ -1,0 +1,10 @@
+ขั้นตอนการรันโปรแกรม
+    1.โหลด python 3.11 หรือติดตั้งผ่าน anaconda
+    2.แตกไฟล์ zip และเปิด terminal ในโฟลเดอร์ที่แตกมา
+    3.ลง library ที่จำเป็นด้วยคำสั่ง "pip install -r requirements.txt" **รันบน terminal เท่านั้น
+    4.สร้าง google sheet ชื่อ "Data for PhoneDepositSystem" เพื่อนำไปใช้งานต่อมนขั้นตอนที่ 5
+    5.สร้างไฟล์ service_account.json สามารถดูวิธีการสร้างได้ในไฟล์ google_api_tutorial.txt สามารถดูตัวอย่างไฟล์ที่จะได้จากการสร้างใน service_account.json.example
+    6.สร้างไฟล์ .env โดยการก็อปปี้ไฟล์ .env.example แล้วแก้ชื่อไฟล์ให้เหลือแค่ .env
+        6.1 สร้าง api key ของเราเองโดย
+        6.2 ก็อปปี้ api key และนำไปวางหลังเครื่องหมาย = (เท่ากับ) ในไฟล์ .env GEMINI_API_KEY=XXXXXXX
+    7.สั่งรันหน้าเว็บด้วยคำสั่ง "streamlit run main.py" **รันบน terminal เท่านั้น
